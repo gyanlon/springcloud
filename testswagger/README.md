@@ -10,6 +10,4 @@ http://localhost:8080/swagger-ui.html
 
 ### 集成到Eureka
 
-eureka:
-  instance:
-    statusPageUrlPath: /swagger-ui.html
+eureka.instance.statusPageUrlPath=/swagger-ui.html
